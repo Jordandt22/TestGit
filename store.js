@@ -14,6 +14,8 @@ const store2 = {
   phone: "123-456-7890",
   email: "info@pizzahut.com",
   website: "www.pizzahut.com",
+  hours: "10am-10pm",
+  menu: ["pizza", "pasta", "salad", "dessert"],
 };
 
 export default [store, store2];
