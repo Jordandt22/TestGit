@@ -1,4 +1,4 @@
-export const store = {
+const store = {
   name: "Papa John's",
   address: "123 Main St, Anytown, USA",
   phone: "123-456-7890",
@@ -8,7 +8,7 @@ export const store = {
   menu: ["pizza", "pasta", "salad", "dessert"],
 };
 
-export const store2 = {
+const store2 = {
   name: "Pizza Hut",
   address: "456 Main St, Anytown, USA",
   phone: "123-456-7890",
@@ -16,5 +16,4 @@ export const store2 = {
   website: "www.pizzahut.com",
 };
 
-console.log(store);
-console.log(store2);
+export default [store, store2];
