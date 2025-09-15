@@ -1,4 +1,4 @@
-const store = {
+export const store = {
   name: "Papa John's",
   address: "123 Main St, Anytown, USA",
   phone: "123-456-7890",
