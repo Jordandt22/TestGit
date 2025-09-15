@@ -8,4 +8,13 @@ const store = {
   menu: ["pizza", "pasta", "salad", "dessert"],
 };
 
+const store2 = {
+  name: "Pizza Hut",
+  address: "456 Main St, Anytown, USA",
+  phone: "123-456-7890",
+  email: "info@pizzahut.com",
+  website: "www.pizzahut.com",
+};
+
 console.log(store);
+console.log(store2);
