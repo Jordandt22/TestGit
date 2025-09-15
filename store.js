@@ -8,7 +8,7 @@ export const store = {
   menu: ["pizza", "pasta", "salad", "dessert"],
 };
 
-const store2 = {
+export const store2 = {
   name: "Pizza Hut",
   address: "456 Main St, Anytown, USA",
   phone: "123-456-7890",
